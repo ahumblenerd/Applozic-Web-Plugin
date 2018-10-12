@@ -12,7 +12,6 @@ AlCustomService.logout = function() {
         ALStorage.removeEncryptionKey();
         w.sessionStorage.clear();
    }
-   IS_LOGGED_IN = false;
 };
 
 return AlCustomService;
